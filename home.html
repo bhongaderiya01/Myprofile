@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="shortcut icon" href="white flower.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <style>
         .aboutCareer{
             color:chocolate;
-            background-color:bisque;
+            background-color:rgb(58, 4, 29);
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 5px;
         }
         #angular{
             color:crimson;
         }
         #listItem{
-            background-color:cyan;
+            background-color:greenyellow;
             color:blue;
+        }
+        #summaryList{
+            font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
@@ -23,7 +32,7 @@
     <h2 class="aboutCareer">Career Objectives</h2>
     <p style="text-transform: uppercase;">To work in organization where I can learn and grow my skills and help organizational growth</p>
     <h2 class="aboutCareer">Professional Summery</h2>
-    <ul>
+    <ul id="summaryList">
         <li>Having 1 years of experience in developing Single page Web Applications using <span id="angular">Angular 8</span> ,HTML 5, CSS 3, Bootstrap 5, JavaScript, TypeScript</li>
         <li id="listItem">Experience on working with version control system - GIT and GitHub</li>
         <li>Experience working with JIRA for user stories and bug tracking</li>
