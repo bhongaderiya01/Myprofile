@@ -6,54 +6,68 @@
     <title>Education Section</title>
     <link rel="shortcut icon" href="assets/download.png">
     <style>
-        
+        table tr th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        #university:hover{
+            background-color: cadetblue;
+
+        }
     </style>
 </head>
 <body>
     <h2>Education Details</h2>
-    <hr>
+    
     <table>
+        <thead>
+            <tr>
+                <th>Sr No.</th>
+                <th>Qualification</th>
+                <th>College/School</th>
+                <th>University/Board</th>
+                <th>YEAR</th>
+                <th>% Marks/Grade</th>
+            </tr>
+
+        </thead>
         <tbody>
-            <form>
-                <tr>
-                    <td><label for="" >Candidate Name:</label></td>
-                    <td><input type="text" value="Riya Bhongade" readonly maxlength="20"></td>
-                    <td><label for="" style="margin-left:20px ;">Environment no : </label></td>
-                    <td><input type="number"></td>
-                </tr>
-                <tr>
-                    <td><span style="padding: 30px ;"></span></td>
-                    <td><span style="padding: 30px ;"></span></td>
-                </tr>
-                
-                <tr>
-                    <td><label for="">College Name:</label></td>
-                    <td><input type="text" value="Vidyabharti Mahavidyalay ,Amravati" readonly></td>
-                    <td><label for="" style="margin-left: 70px ;">Branch :</label></td>
-                    <td><input type="text" value="MSC" readonly></td>
-                </tr>
-                
-                <tr>
-                    <td><span style="margin: 30px ;"></span></td>
-                    <td><span style="margin: 30px ;"></span></td>
-                </tr>
-                <tr>
-                    <td><label for="">Date of joining</label></td>
-                    <td><input type="date" ></td>
-                    <td><label for="" style="margin-left: 70px ;">Email :</label></td>
-                    <td><input type="email" value="abc@gmail.com" readonly></td>
-                </tr>
-                 <tr>
-                    <td><span style="margin: 30px ;"></span></td>
-                    <td><span style="margin: 30px ;"></span></td>
-                </tr>
-                
-                <tr>
-                    <td><label for="">Project Details :</label></td>
-                    <td><textarea name="" id="" cols="40" rows="10"></textarea></td>
-                </tr>
-            </form>
+            <tr>
+                <th>1</th>
+                <th>MSC</th>
+                <th>Vidyabharti ,Amravati</th>
+                <th id="university">Amt University</th>
+                <th>2023</th>
+                <th>A</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>BSC</th>
+                <th>RLT</th>
+                <th>Amt University</th>
+                <th>2021</th>
+                <th>A</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>HSC</th>
+                <th>J C Highschool</th>
+                <th>Board</th>
+                <th>2018</th>
+                <th>A</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>SSC</th>
+                <th>J D Chaware</th>
+                <th>Board</th>
+                <th>2016</th>
+                <th>A</th>
+            </tr>
+
         </tbody>
+        
+        
     </table>
 </body>
 </html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration 02</title>
+    <link rel="shortcut icon" href="download.png">
+    <style>
+        #header{
+            color: black;
+            
+        }
+        #header:hover{
+            background-color: #81e681;
+            border:1px solid chocolate ;
+            
+        }
+        input[type="text"]{
+            text-transform: capitalize;
+            color: crimson;
+            background-color: yellow;
+        }
+        input[type="text"]:hover{
+            color: green;
+        }
+        input[type="number"]{
+            color: crimson;
+            background-color: yellow;
+        }
+        input[type="email"]{
+            color: crimson;
+            background-color: yellow;
+        }
+        input[type="number"]:hover{
+            color: green;
+        }
+        input[type="email"]:hover{
+            color:green ;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+    <legend><h2 id="header">Employee Registration Form </h2></legend>
+     
+    <table>
+        <tbody>
+            <form>
+                <tr>
+                    <td> <label for="">First Name</label></td>
+                    <td><input type="text" autofocus maxlength="12" placeholder="only first name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name</label></td>
+                    <td><input type="text"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="">Mobile</label></td>
+                    <td><input type="number" maxlength="10" required ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email"  required placeholder="abc@gmail.com" > </td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Select Gender &nbsp;</label></td>
+                    <td>
+                        <input type="radio" name="gender "> <label for="">Male</label>
+                         <input type="radio" name="gender "><label for="">Female</label>
+                          <input type="radio"name="gender "><label for="">other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="" > Select your tech stack</label></td>
+                    <td>
+                        <input type="checkbox"> <label for="" >HTML</label>
+                        <input type="checkbox"><label for="">CSS</label>
+                        <input type="checkbox"><label for="">JavaScript</label>
+                        <input type="checkbox"><label for="">Bootstrap</label>
+                        <input type="checkbox"><label for="">angular or react</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Upload your Mark sheets</label></td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                    <tr>
+                        <td><label for="">Upload Profile Photo</label></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Date of Birth</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                
+                    <tr>
+                        <td><label for="">Select State </label></td>
+                        <td>
+                            <select > 
+                                <option value="MH" >Maharashtra</option>
+                                <option value="UP" >UP </option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Rajastan">Rajastan</option>
+                                <option value="AP">Andra Pradesh</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Country</label></td>
+                        <td><input type="text" value="India" readonly ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Permanant Address</label></td>
+                        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                    </tr>
+
+                <tr>
+                    <td><button type="reset">reset</button></td>
+                    <td><button type="submit">submit</button></td>
+                </tr>
+                
+            </form>
+        </tbody>
+     </table>
+    </fieldset>
+</body>
+</html>
