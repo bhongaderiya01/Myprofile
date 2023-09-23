@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="shortcut icon" href="assets/classyImage.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        #div{
+            border: 2px solid black;
+            display: inline-block;
+            padding: 20px 10px 10px 20px;
+            width: 450px;
+            border-radius: 25px;
+           background-color: white;
+           position: relative;
+           top: 50px;
+           left: 100px;
+           color: cadetblue;
+           font-family: 'Roboto', sans-serif;
+            
+        }
+        #heading2{
+            text-transform: uppercase;
+            text-align:center ;
+            letter-spacing: 1px;
+       
+            
+        }
+        .inputAmount{
+            width: 400px;
+            display: block;
+            height: 20px;
+            color: cadetblue;
+            
+
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .inputDiscount{
+            width: 400px;
+            display: block;
+            margin-bottom: 20px;
+            height: 20px;
+            color: cadetblue;
+        }
+        .calculate{
+            width: 400px;
+            /* display: block; */
+            height: 30px;
+            border-radius: 5px;
+            color: white;
+            background-color: #4caf50;
+            border: 1px solid black;
+        }
+        .calculate:hover{
+            color: burlywood;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="div" >
+        <h2 id="heading2">Discount Calculator</h2>
+        <p>Enter the Bill amount and discount in percentage</p>
+        <p>Bill Amount</p>
+        <input class="inputAmount" type="number">
+        <p>Discount Percentage</p>
+        <input  class="inputDiscount" type="number">
+        <button class="calculate">Calculate</button>
+        <p>Total Discount Amount</p>
+
+    </div>
+    
+    
+</body>
+</html>
