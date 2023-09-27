@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Subscriber Page</title>
+    <link rel="shortcut icon " href="assets/classyImage.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        h2{
+            font-family: 'Roboto', sans-serif;
+             
+        }
+        .div{
+            border: 1px solid black ;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: white;
+            position: relative;
+            top: 40px ;
+            left: 100px;
+            padding-bottom: 20px;
+        }
+        .infoAboutSubscriber{
+            color: #91ca7b;
+            background-color: #2855b4;
+            border: 1px solid #2855b4 ;
+            border-radius: 10px;
+            padding: 15px 20px 15px 15px;
+            font-family: 'Roboto', sans-serif;
+            /* margin-top: 10px; */
+            margin-left: 5px;
+            margin-right:5px;
+        }
+        #span{
+            color: red;
+        }
+        #enterEmail{
+            width:95%;
+            height: 25px;
+            border: 1px gray solid;
+            background-color: #cec8c4;
+            border-radius: 5px;
+        }
+        #inputReason{
+            width:95%;
+            height: 25px;
+            border: 1px gray solid;
+            background-color: #cec8c4;
+            border-radius: 5px;
+        }
+        #button{
+            margin-left: 70%;
+            border-radius: 5px;
+            background-color: #cec8c4;
+            border: 1px solid grey;
+            height: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="div">
+        <h2>Subscriber</h2>
+        <hr style="color: aquamarine;">
+        <p class="infoAboutSubscriber">
+            We're sorry to see you go, but hey, no hard <br> 
+            feelings, hopefully we will see you back <br>
+            one day. <br>
+            Please fill in your email address in order to <br>
+            unsubscribe from the list. <br>
+            You will receive an email to confirm your <br>
+            unsubscription,  just to make sure this is <br>
+            not an accident or somebody else tries to <br> unsubscribe you.        
+        </p>
+        <p> <strong>Email</strong> <span id="span">*</span></p>
+        <input type="email" required id="enterEmail"><br>
+        <p> Unsubscribe reason</p>
+        <input type="text" id="inputReason" placeholder="Unsubscribe reason">
+        
+        <hr>
+        <button id="button"> Unsubscribe</button>
+        
+    </div>
+</body>
+</html>
